@@ -1,0 +1,278 @@
+@font-face{
+	font-family: 'Signika';
+	src: url('fonts/Signika-Regular.otf') format('opentype');
+}
+body{
+	margin:0;
+	padding:0;
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+*{
+	font-family: 'Raleway';
+    -webkit-font-smoothing: antialiased;
+    -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+.cent{
+	margin:0 auto;
+	width: 90%;
+}
+.cent div{
+    display:inline-block;
+}
+header{
+	background:   -webkit-linear-gradient(45deg, white 0%, white 25%, #485F63 25%, #485F63 100%);
+	background: -moz-linear-gradient(45deg, white 0%, white 25%, #485F63 25%, #485F63 100%);
+	background: -ms-linear-gradient(45deg, white 0%, white 25%, #485F63 25%, #485F63 100%);
+	 /*#485F63;/*#1DBEE5;*/   /**/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	opacity: 0.95;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+header div.cent h5 a#sign{
+	transition: all 0.5s;
+}
+header div.cent h5 a#sign:hover{
+	background-color: red;
+}
+
+div#search
+{
+	margin: 0 auto;
+	width: 60%;
+	color: white;
+	padding-top: 7vh;
+	padding-bottom: 15vh;
+}
+div#search select
+{
+	padding: 13px;
+	outline: none;
+	border:1px solid #1DBEE5;
+	border-radius: 3px 0 0 3px;
+    width:100%;
+}
+div#search select option
+{
+	
+}
+
+div#search input[type=text]
+{
+	padding: 13px;
+	width: 95%;
+	outline: none;
+}
+div#search input[type=submit]
+{
+	padding: 13px;
+	background-color: #1DBEE5;
+	border: 2px solid #1DBEE5;
+	width: 100px;
+	font-weight: bolder;
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+}
+
+div#imgs{
+	margin: 0 auto;
+	width: 61%;
+}
+    div#imgs .c {
+        display: inline-block;
+        width: 24%;
+        height: 100px;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: 100% auto;
+        background-position: center;
+        border-radius: 10px;
+        -moz-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+        div#imgs .c:hover {
+            -moz-background-size: 150% auto;
+            -o-background-size: 150% auto;
+            -webkit-background-size: 150% auto;
+            background-size: 150% auto;
+            -ms-filter: grayscale();
+            -webkit-filter: grayscale(100%);
+            filter: grayscale();
+        }
+.c h3 {
+    line-height:130px;
+    color: navajowhite;
+    -webkit-text-shadow: 0 3px 3px gray;
+    text-shadow: 0 3px 3px gray;
+    font-weight:bold;
+}
+ 
+ footer{
+     
+ background-image: url("images/cg.png");
+ padding: 1em;
+ clear:both;
+ }
+ footer div#foo{
+ 	margin: 0 auto;
+ 	width: 60%;
+ 	padding-bottom:50px;
+ 	border-bottom: 1px solid gray;
+ }
+ .b{
+     font-family:Calibri;
+ display: inline-block;
+ 	width: 32%;
+ 	vertical-align: text-top;
+     text-align:center;
+ }
+ .b h4{
+     font-family:Calibri;
+ 	color: #1DBEE5;
+ }
+ .b h5{
+     font-family:Calibri;
+ 	margin:0;
+ 	padding: 3px;
+ }
+ .b h5 a
+ {
+     font-family:Calibri;
+     font-weight:lighter;
+ 	color: white;
+ 	font-size: 10pt;
+ 	transition: all 0.3s;
+ }
+ .b h5 a:hover{
+ 	color: gray;
+ }
+ div#copy{
+ 	color: gray;
+ 	font-size: 9pt;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	font-weight: bolder;
+ }
+div.docsearch {
+    box-shadow:0px 0px 3px gray;
+    border-radius:3px;
+    padding: 1em;
+    margin-bottom:20px;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    background:   -webkit-linear-gradient(0deg, #E8E8E8 0%, #E8E8E8 75%, #485F63 75%, #485F63 100%);
+	 background: -moz-linear-gradient(0deg, #E8E8E8 0%, #E8E8E8 75%, #485F63 75%, #485F63 100%);
+	 background: -ms-linear-gradient(0deg, #E8E8E8 0%, #E8E8E8 75%, #485F63 75%, #485F63 100%);
+}
+ div.docsearch #left h2{
+     font-family:'Roboto';
+ }
+ div.docsearch:hover{
+     background:   -webkit-linear-gradient(0deg, white 0%, white 75%, #1DBEE5 75%, #1DBEE5 100%);
+	 background: -moz-linear-gradient(0deg, white 0%, white 75%, #1DBEE5 75%, #1DBEE5 100%);
+	 background: -ms-linear-gradient(0deg, white 0%, white 75%, #1DBEE5 75%, #1DBEE5 100%);
+ }
+ div.docsearch h1,div.docsearch h2,div.docsearch h3,div.docsearch h4,div.docsearch h5,div.docsearch h6{
+     margin:0;
+     padding:0;
+ }
+div.docsearch:hover #right h2,div.docsearch:hover #right h4 {
+    color: black;
+}
+input[type=checkbox]+label{
+    color:black;
+}
+.searchbox{
+    float:left;
+    display:inline-block;
+    font-family:Signika;
+    font-weight:bolder;
+    font-size:35px;
+}
+div#desc,div#desc2{
+    background-color:#fafafa;
+    padding-top:5vh;
+    padding-bottom:5vh;
+}
+div#desc #content,div#desc2 #content2{
+    margin:0 auto;
+    width:61%;
+    padding-bottom:50px;
+    border-bottom:1px solid #E0E0E0;
+}
+div#desc #content #names div{
+    display:inline-block;
+    width:27%;
+    background-color:white;
+    box-shadow:0 0 5px #E8E8E8;
+    padding:40px 1% 40px 1%;
+}
+div#desc2 #content2 div{
+    display:inline-block;
+}
+ol{
+    list-style:none;
+    padding:0;
+    line-height:30px;
+    font-size:14px;
+}
+li{
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-weight:bolder;
+}
+li span{
+    background-color: #e04f67;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    font-size: 18px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+a.docres{
+    margin-bottom:50px;
+    
+}
+a.docres div.inner{
+    padding: 20px; box-shadow: 0 0 3px gray; border-radius: 3px;
+    background:   -webkit-linear-gradient(0deg, #F8F8F8 0%, #F8F8F8 75%, #485F63 75%, #485F63 100%);
+	 background: -moz-linear-gradient(0deg, #F8F8F8 0%, #F8F8F8 75%, #485F63 75%, #485F63 100%);
+	 background: -ms-linear-gradient(0deg, #F8F8F8 0%, #F8F8F8 75%, #485F63 75%, #485F63 100%);
+}
+a.docres div h1,a.docres div h2,a.docres div h3,a.docres div h4,a.docres div h5,a.docres div h6{
+    margin:0;
+    padding:0;
+}
+a.docres div.inner:hover{
+    background:   -webkit-linear-gradient(0deg, white 0%, white 75%, #1DBEE5 75%, #1DBEE5 100%);
+	 background: -moz-linear-gradient(0deg, white 0%, white 75%, #1DBEE5 75%, #1DBEE5 100%);
+	 background: -ms-linear-gradient(0deg, white 0%, white 75%, #1DBEE5 75%, #1DBEE5 100%);
+}
+.ada {
+    color:white;padding:10px;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+.ada:hover{
+    color:#1DBEE5;
+}
